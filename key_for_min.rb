@@ -11,11 +11,6 @@ def key_for_min_value(hash)
       min = num
       name = person
     
-  else
-    hash = {}
-    return nil
-    end
 end
 name
-end
 end
