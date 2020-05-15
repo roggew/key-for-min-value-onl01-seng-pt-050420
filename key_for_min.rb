@@ -8,7 +8,7 @@ if my_hash = {}
 else
  name = my_hash.keys[0]
  value = my_hash.values[0]
- my_hash.eah do |key, value|
+ my_hash.each do |key, value|
   if value < min
     min = value 
     name = key
