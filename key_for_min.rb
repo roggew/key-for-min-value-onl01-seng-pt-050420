@@ -10,9 +10,6 @@ if
     if num < min 
       min = num
       name = person
-      
-    elsif hash = {}
-    nil
     end
 end
 name
