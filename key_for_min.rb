@@ -11,7 +11,6 @@ if
     min = value 
     name = key
   end
-  key
 end
 end
 end
