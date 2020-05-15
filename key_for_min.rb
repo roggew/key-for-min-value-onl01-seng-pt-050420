@@ -3,7 +3,7 @@
 
 def key_for_min_value(my_hash)
 if my_hash = {}
-return "nil"
+return nil
 else
  min = my_hash.first[1]
  name = my_hash.first[0]
