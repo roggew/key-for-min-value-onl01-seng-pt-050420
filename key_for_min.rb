@@ -15,5 +15,6 @@ else
   end
   key
 end
+my_hash
 end
 end
