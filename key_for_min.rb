@@ -7,7 +7,7 @@ def key_for_min_value(hash)
   hash.each do |person, num|
     if num < min 
       min = num
-      person = name
+      name = person
     end
 end
 name
