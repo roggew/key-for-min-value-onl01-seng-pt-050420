@@ -4,8 +4,11 @@
 def key_for_min_value(hash)
   min = 0  
   name = ""
-  hash.each do |name, num|
-    if num <
-
+  hash.each do |person, num|
+    if num < min 
+      min = num
+      person = name
+    end
+name
 
 end
