@@ -10,5 +10,5 @@ def key_for_min_value(hash)
       person = name
     end
 name
-
+end
 end
