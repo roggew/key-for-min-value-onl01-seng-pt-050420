@@ -6,7 +6,7 @@ if my_hash = {}
  return nil
 
 else
- min = my_hash.first[0]
+ min = my_hash.keys[0]
  name = my_hash.first[0]
  my_hash.eah do |fruit, x|
   if x < min
