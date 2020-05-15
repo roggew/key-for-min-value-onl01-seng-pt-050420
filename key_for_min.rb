@@ -9,6 +9,7 @@ def key_for_min_value(hash)
       min = num
       name = person
     end
+  end
 end
 name
 end
