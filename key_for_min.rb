@@ -6,14 +6,14 @@ if my_hash = {}
  return nil
 
 else
- min = my_hash.keys[0]
- name = my_hash.first[0]
- my_hash.eah do |fruit, x|
-  if x < min
-    min = x  
-    name = fruit 
+ name = my_hash.keys[0]
+ value = my_hash.values[0]
+ my_hash.eah do |key, value|
+  if value < min
+    min = value 
+    name = key
   end
-  name
+  key
 end
 end
 end
