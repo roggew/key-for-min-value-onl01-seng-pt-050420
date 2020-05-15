@@ -7,7 +7,7 @@ if
   min = nil  
   name = nil
   hash.each do |person, num|
-    if num < min ||
+    if num < min || num==min
       min = num
       name = person
     end
