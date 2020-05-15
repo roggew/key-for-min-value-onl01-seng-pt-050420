@@ -4,9 +4,9 @@
 def key_for_min_value(hash)
 
 if
- name = my_hash.keys[0]
- min = my_hash.values[0]
- my_hash.collect do |key, value|
+ name = hash.keys[0]
+ min = hash.values[0]
+ hash.collect do |key, value|
   if value < min
     min = value 
     name = key
